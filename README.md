@@ -38,7 +38,7 @@ company-law instrument):
   and honestly-narrowed scope, including facts this iteration could
   NOT verify, such as a Labour Code citation and a national
   single-window business-formalities agency name).
-- `src/statute/facts.cljc` -- general-law catalog: the OHADA Uniform
+- `src/statute/facts.kotoba` -- general-law catalog: the OHADA Uniform
   Act on Commercial Companies (AUSCGIE, directly applicable, no
   domestic transposition act). Smaller than some siblings' catalogs --
   a Labour Code (Code du Travail) citation could not be independently
@@ -63,7 +63,7 @@ Wave 1, in `com-junkawasaki/root`) — national dishes, protected products,
 beverages, crafts, festivals and heritage sites for the Central African
 Republic:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
